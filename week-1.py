@@ -5,6 +5,13 @@ b = 2
 
 if a == 1 and b == 2:
      print("True")
+else:
+     print("False")
 
-     if a == 1 or b == 3:
-         print("True")
+
+
+def abc():
+    for i in range(1,5):
+        print(i)    
+
+abc()
