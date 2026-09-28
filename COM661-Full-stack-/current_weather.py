@@ -11,8 +11,7 @@ def url_builder(lat, lon):
         '&appid=' + api  +\
         '&lat=' + str(lat)+\
         '&lon=' + str(lon) 
-    
-    
+      
 
 def fetch_data(full_url):
     url = urllib.request.urlopen(full_url)
